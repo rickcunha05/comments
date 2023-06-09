@@ -1,12 +1,12 @@
-
-
-function App() {  
-
+import { Header } from "./components/Header/Header";
+import "./global.css";
+function App() {
   return (
     <>
-     <h1> Hello Junba!</h1>
+      <Header />
+      <h1> Hello Junba!</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
